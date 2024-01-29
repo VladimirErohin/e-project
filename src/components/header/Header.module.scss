@@ -1,0 +1,33 @@
+.header {
+  border: 1px solid lawngreen;
+  margin: 0 auto;
+
+  background-color: #147996;
+
+  display: flex;
+  align-items: center;
+
+  &.container {
+    border: 1px solid #d54a00;
+
+    max-width: 1160px; /*максимальная ширина или столько сколько есть места(задаем для адаптива)*/
+    margin: 0 auto; /*по центру*/
+    padding: 0 20px; /* не по плану*/
+
+    .menu {
+      margin-left: auto;
+
+      ul {
+        display: flex;
+        list-style-type: none;
+      }
+    }
+  }
+
+}
+
+//.container{
+//  max-width: 1160px; /*максимальная ширина или столько сколько есть места(задаем для адаптива)*/
+//  margin: 0 auto; /*по центру*/
+//  padding: 0 20px; /* не по плану*/
+//}
