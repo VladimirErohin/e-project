@@ -1,29 +1,41 @@
 .header {
   border: 1px solid lawngreen;
-  margin: 0 auto;
 
+  margin: 0 auto;
   background-color: #147996;
 
-  display: flex;
-  align-items: center;
-
-  &.container {
+  .container {
     border: 1px solid #d54a00;
 
     max-width: 1160px; /*максимальная ширина или столько сколько есть места(задаем для адаптива)*/
     margin: 0 auto; /*по центру*/
     padding: 0 20px; /* не по плану*/
 
-    .menu {
-      margin-left: auto;
+    .nav {
+      display: flex;
+      align-items: center;
 
-      ul {
+      justify-content: space-between;
+
+      .menu {
         display: flex;
-        list-style-type: none;
+        margin-left: 16rem;
+
+        position:relative;
+
+        ul {
+          display: flex;
+          list-style-type: none;
+
+          //display: none; //на мобилке делаем
+
+          li{
+            margin-right: 1rem;
+          }
+        }
       }
     }
   }
-
 }
 
 //.container{

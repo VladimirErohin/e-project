@@ -1,0 +1,20 @@
+.popup{
+  border: 1px solid #f6eb05;
+  //margin-left: auto;
+
+  width: 8rem;
+  position: absolute;
+  background-color: grey;
+  left: 29rem;
+  top: 2.8rem;
+  //margin-top: 15px;
+  //background: #ffffff;
+  //box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  //border-radius: 10px;
+  //overflow: hidden;
+  //padding: 10px 0;
+
+  & ul{
+    list-style-type: none;
+  }
+}
