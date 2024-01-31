@@ -8,7 +8,8 @@ const Popup = () => {
            <li>Linkedin</li>
            <li>Github</li>
            <li>Telegram</li>
-           <li>Email</li></ul>
+           <li>Email</li>
+       </ul>
         </div>
     );
 };

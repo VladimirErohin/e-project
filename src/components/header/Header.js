@@ -5,23 +5,22 @@ import Popup from "../popup/Popup";
 
 const Header = () => {
     return (
-        <div className={styles.header}>
+        <header className={styles.header}>
             <div className={styles.container}>
                 <nav className={styles.nav}>
-                    <div>Icon</div>
+                    <div>Logo</div>
                     <div className={styles.menu}>
                         <ul>
-                            <li>Info</li>
+                            <li>Info + <Popup/></li>
                             <li>Projects</li>
                             <li>Weather</li>
                             <li>Language</li>
                         </ul>
                     </div>
                     <Button name="Login"/>
-                    <Popup/>
                 </nav>
             </div>
-        </div>
+        </header>
     );
 };
 
